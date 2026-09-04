@@ -2,6 +2,8 @@
 
 Static site for the course page, deployable via GitHub Pages.
 
+**Live site:** https://oist.github.io/MLcourse/
+
 ## Structure
 
 - `index.html` — page shell, has a year dropdown, renders content into `#course-content`.
