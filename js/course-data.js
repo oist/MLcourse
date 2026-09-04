@@ -39,7 +39,7 @@ const COURSE_DATA = {
       "A third final-presentation session (Mon, Dec 7) may be added if needed, as in 2025.",
     schedule: [
       { date: "2026-09-07", topic: "Introduction to Machine Learning",
-        pdf: "https://groups.oist.jp/sites/default/files/imce/u129210/IML/2025/OIST-ML-Introduction.pdf",
+        pdf: "2026/PDF/OIST-ML-Introduction.pdf",
         handson: "https://drive.google.com/file/d/1xvpdr5pSyQly-kiF1l9zDU57VYpzRjWE/view?usp=drive_link" },
       { date: "2026-09-09", topic: "Linear Algebra for ML",
         pdf: "https://groups.oist.jp/sites/default/files/imce/u129210/IML/2024/pdf/Linear_Algebra__OIST_v1.pdf",
