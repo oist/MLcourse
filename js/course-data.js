@@ -36,7 +36,7 @@ const COURSE_DATA = {
     // scheduleNote) and are pending confirmation/reordering.
     scheduleNote:
       "Materials linked below are from the 2025 offering and will be updated for 2026. " +
-      "A third final-presentation session (Mon, Dec 7) may be added if needed, as in 2025.",
+      "A third final-presentation session (Wed, Dec 9) may be added if needed, as in 2025.",
     schedule: [
       { date: "2026-09-07", topic: "Introduction to Machine Learning",
         pdf: "2026/PDF/OIST-ML-Introduction.pdf",
@@ -55,49 +55,51 @@ const COURSE_DATA = {
       { date: "2026-09-21", topic: "National Holiday", detail: "Respect for the Aged Day — no class", holiday: true },
       { date: "2026-09-23", topic: "National Holiday", detail: "Autumnal Equinox Day — no class", holiday: true },
 
-      { date: "2026-09-28", topic: "Classification",
+      { date: "2026-09-28", topic: "No Class", detail: "No class today", holiday: true },
+      { date: "2026-09-30", topic: "Classification",
         pdf: "https://groups.oist.jp/sites/default/files/imce/u129210/IML/2023/pdf/Classification_OIST.pdf",
         handson: "https://colab.research.google.com/drive/1-mFNWnewrnxUQUqNr0Hqf9rU0Ls3B0S1?usp=sharing" },
-      { date: "2026-09-30", topic: "Nonlinear Regression",
+
+      { date: "2026-10-05", topic: "Nonlinear Regression",
         pdf: "https://groups.oist.jp/sites/default/files/imce/u129210/IML/2023/pdf/Nonlinear_Regression.pdf",
         handson: "https://colab.research.google.com/drive/1e00R-JlVVe-UfBsfxPIu750EcuY-1t51?usp=sharing" },
-
-      { date: "2026-10-05", topic: "Midterm Exam" },
-      { date: "2026-10-07", topic: "Review of Midterm Exam" },
+      { date: "2026-10-07", topic: "Midterm Exam" },
 
       { date: "2026-10-12", topic: "National Holiday", detail: "Sports Day — no class", holiday: true },
-      { date: "2026-10-14", topic: "Feature Selection and Sparsity",
+      { date: "2026-10-14", topic: "Review of Midterm Exam" },
+
+      { date: "2026-10-19", topic: "Feature Selection and Sparsity",
         pdf: "https://groups.oist.jp/sites/default/files/imce/u129210/IML/2023/pdf/Feature_Selection_and_Sparsity.pdf",
         handson: "https://colab.research.google.com/drive/1bPn-vJ3nPY6n8csoqzB_tt_Ma1Lg2bzL?usp=sharing" },
-
-      { date: "2026-10-19", topic: "Dimensionality Reduction", detail: "PCA, CCA, t-SNE",
+      { date: "2026-10-21", topic: "Dimensionality Reduction", detail: "PCA, CCA, t-SNE",
         pdf: "https://groups.oist.jp/sites/default/files/imce/u129210/IML/2023/pdf/Dimensionality_reduction.pdf",
         handson: "https://colab.research.google.com/drive/18ZaqKkhnNt7b9ViAb5JmMrGGralPDH96?usp=sharing" },
-      { date: "2026-10-21", topic: "Introduction to Deep Learning",
-        pdf: "https://groups.oist.jp/sites/default/files/imce/u129210/IML/2023/pdf/Introduction_DL.pdf",
-        handson: "https://colab.research.google.com/drive/1dmSfz8WqCOJ2LZUkUMSZy_jlU0nmyO8i?usp=sharing" },
 
       { date: "2026-10-26", topic: "No Class", detail: "No class this week", holiday: true },
       { date: "2026-10-28", topic: "No Class", detail: "No class this week", holiday: true },
 
-      { date: "2026-11-02", topic: "Introduction to Graph Neural Networks",
+      { date: "2026-11-02", topic: "Introduction to Deep Learning",
+        pdf: "https://groups.oist.jp/sites/default/files/imce/u129210/IML/2023/pdf/Introduction_DL.pdf",
+        handson: "https://colab.research.google.com/drive/1dmSfz8WqCOJ2LZUkUMSZy_jlU0nmyO8i?usp=sharing" },
+      { date: "2026-11-04", topic: "Introduction to Graph Neural Networks",
         pdf: "https://groups.oist.jp/sites/default/files/imce/u129210/IML/2024/pdf/Graph_Neural_Network_IML.pdf",
         handson: "https://colab.research.google.com/drive/1jB_nJrAu5W_lV7l--ZDajJQtm1dNLHdq?usp=sharing" },
-      { date: "2026-11-04", topic: "Introduction to Self-Supervised Learning",
+
+      { date: "2026-11-09", topic: "Introduction to Self-Supervised Learning",
         pdf: "https://groups.oist.jp/sites/default/files/imce/u129210/IML/2024/pdf/Self_supervised_Learning.pdf" },
-
-      { date: "2026-11-09", topic: "Introduction to Optimal Transport",
+      { date: "2026-11-11", topic: "Introduction to Optimal Transport",
         pdf: "https://groups.oist.jp/sites/default/files/imce/u129210/IML/2024/pdf/Optimal_Transport.pdf" },
-      { date: "2026-11-11", topic: "Project 1" },
 
-      { date: "2026-11-16", topic: "Project 2" },
-      { date: "2026-11-18", topic: "Project 3" },
+      { date: "2026-11-16", topic: "Project 1" },
+      { date: "2026-11-18", topic: "Project 2" },
 
       { date: "2026-11-23", topic: "National Holiday", detail: "Labor Thanksgiving Day — no class", holiday: true },
-      { date: "2026-11-25", topic: "Project 4" },
+      { date: "2026-11-25", topic: "Project 3" },
 
-      { date: "2026-11-30", topic: "Final Presentation 1" },
-      { date: "2026-12-02", topic: "Final Presentation 2" }
+      { date: "2026-11-30", topic: "Project 4" },
+      { date: "2026-12-02", topic: "Final Presentation 1" },
+
+      { date: "2026-12-07", topic: "Final Presentation 2" }
     ],
     assessment: {
       breakdown: [
