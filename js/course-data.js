@@ -60,13 +60,13 @@ const COURSE_DATA = {
         pdf: "https://groups.oist.jp/sites/default/files/imce/u129210/IML/2023/pdf/Classification_OIST.pdf",
         handson: "https://colab.research.google.com/drive/1-mFNWnewrnxUQUqNr0Hqf9rU0Ls3B0S1?usp=sharing" },
 
-      { date: "2026-10-05", topic: "Nonlinear Regression",
-        pdf: "https://groups.oist.jp/sites/default/files/imce/u129210/IML/2023/pdf/Nonlinear_Regression.pdf",
-        handson: "https://colab.research.google.com/drive/1e00R-JlVVe-UfBsfxPIu750EcuY-1t51?usp=sharing" },
-      { date: "2026-10-07", topic: "Midterm Exam" },
+      { date: "2026-10-05", topic: "Midterm Exam" },
+      { date: "2026-10-07", topic: "Review of Midterm Exam" },
 
       { date: "2026-10-12", topic: "National Holiday", detail: "Sports Day — no class", holiday: true },
-      { date: "2026-10-14", topic: "Review of Midterm Exam" },
+      { date: "2026-10-14", topic: "Nonlinear Regression",
+        pdf: "https://groups.oist.jp/sites/default/files/imce/u129210/IML/2023/pdf/Nonlinear_Regression.pdf",
+        handson: "https://colab.research.google.com/drive/1e00R-JlVVe-UfBsfxPIu750EcuY-1t51?usp=sharing" },
 
       { date: "2026-10-19", topic: "Feature Selection and Sparsity",
         pdf: "https://groups.oist.jp/sites/default/files/imce/u129210/IML/2023/pdf/Feature_Selection_and_Sparsity.pdf",
